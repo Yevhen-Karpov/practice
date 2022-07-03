@@ -92,7 +92,6 @@ const handleClick = (e) => {
     state.elementY = e.target.offsetY;
 
     state.clicked = true;
-    console.log(e.target.key, "key", e.target.innerHTML);
     state.index = e.target.key;
   } else state.clicked = false;
 };
