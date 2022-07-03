@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Задание 8</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 1.5;
+      position: relative;
+    }
+
+    #letters {
+      margin-left: 50px;
+      width: fit-content;
+    }
+
+    .letter {
+      display: inline-block;
+      line-height: 1;
+      font-size: 36px;
+
+    }
+
+    #controls {
+      margin-left: 50px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <p><a href="index.html">На главную</a></p> -->
+
+  <div id="controls">
+    <input type="string" placeholder="Напишіть щось" />
+    <button type="button" data-action="render">Створити</button>
+  </div>
+
+  <div id="letters"></div>
+
+  <script src="js/task-01.js" type="module"></script>
+</body>
+
+</html>
